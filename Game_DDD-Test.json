@@ -1,0 +1,82 @@
+{
+  "name": "DDD - Test",
+  "deckBuilding": {
+    "mainFilters": [
+      "type",
+      "cost"
+    ],
+    "formats": [
+      {
+        "title": "DDD Test",
+        "gameplay": "DDD",
+        "deckRuleset": "DDD"
+      }
+    ],
+    "deckRulesets": {
+      "DDD": {
+        "general": {
+          "min": 1,
+          "maxPerCard": 3
+        }
+      }
+    }
+  },
+  "gameplay": {
+    "DDD": {
+      "mulligan": {
+        "startingHandSize": 1,
+        "mulliganCycle": {
+          "info": "Draw your starting hand.",
+          "steps": [
+            "toTop",
+            "shuffle",
+            "draw"
+          ],
+          "selectionRange": {
+            "min": 1
+          }
+        }
+      },
+      "newTurn": {
+        "drawOnStart": true,
+        "sharedTurn": false
+      },
+      "countersStartingValues": [
+        20
+      ],
+      "sections": {
+        "customSections": [
+          "Personajes"
+        ],
+        "layout": {
+          "direction": "column",
+          "content": [
+            {
+              "section": "Personajes"
+            }
+          ]
+        },
+        "autoPlayFromHand": {
+          "Personaje": "Personajes"
+        },
+        "autoPlayFromStack": {
+          "Personaje": "Personajes"
+        },
+        "sectionsDict": {
+          "Personajes": {
+            "title": "Personajes",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "isHorizontalAllowed": false
+          }
+        }
+      }
+    }
+  },
+  "cards": {
+    "dataUrl": "https://raw.githubusercontent.com/darucuernitos/DDD-TCG/main/DDDCards-Test.json",
+    "cardBack": "https://raw.githubusercontent.com/darucuernitos/DDD-TCG/main/Jojo.png",
+    "version": 3
+  }
+}
