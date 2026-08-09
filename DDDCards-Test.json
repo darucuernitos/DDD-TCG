@@ -1,0 +1,23 @@
+{
+  "jojo-001": {
+    "id": "jojo-001",
+    "name": "Jojo Kid",
+    "type": "Personaje",
+    "face": {
+      "front": {
+        "name": "Jojo Kid",
+        "type": "Personaje",
+        "cost": 1,
+        "isHorizontal": false,
+        "image": "https://raw.githubusercontent.com/darucuernitos/DDD-TCG/main/Jojo.png"
+      }
+    },
+    "Card type": "Personaje - Estudiante",
+    "set": "DDD-Test",
+    "isHorizontal": false,
+    "cost": 1,
+    "power": 1,
+    "toughness": 1,
+    "archetype": "Estudiante"
+  }
+}
