@@ -1,0 +1,167 @@
+{
+  "name": "DDD - Jojo Test",
+  "menuBackgroundImage": "",
+  "defaultRessources": {
+    "backgrounds": [],
+    "decksUrl": ""
+  },
+  "customHelp": "",
+  "cardRotation": 45,
+  "cards": {
+    "dataUrl": "https://raw.githubusercontent.com/darucuernitos/DDD-TCG/main/DDDCards-Test.json",
+    "cardBack": "https://raw.githubusercontent.com/darucuernitos/DDD-TCG/main/Jojo.png",
+    "version": 3
+  },
+  "deckBuilding": {
+    "mainFilters": [
+      "type",
+      "cost"
+    ],
+    "formats": [
+      {
+        "title": "DDD Test",
+        "gameplay": "55f4e9cf-2cf7-4a1b-9309-5c7881b63e0b",
+        "customCategories": []
+      }
+    ]
+  },
+  "gameplay": {
+    "55f4e9cf-2cf7-4a1b-9309-5c7881b63e0b": {
+      "mulligan": {
+        "info": "",
+        "startingHandSize": 4,
+        "drawNewHand": true,
+        "putSelectionAtBottom": true,
+        "drawNewSelectedCards": false
+      },
+      "newTurn": {
+        "drawOnStart": true,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "",
+        "drawPerTurn": 1
+      },
+      "defaultNotes": "",
+      "tokens": [],
+      "countersStartingValues": [
+        20
+      ],
+      "hideFacedDownCards": false,
+      "sections": {
+        "customSections": [
+          "Carril 1",
+          "Carril 2",
+          "Carril 3",
+          "Carril 4",
+          "Notas"
+        ],
+        "layout": {
+          "direction": "column",
+          "isSymetricalForOpponents": true,
+          "content": [
+            {
+              "direction": "row",
+              "content": [
+                {
+                  "section": "Carril 1"
+                },
+                {
+                  "section": "Carril 2"
+                },
+                {
+                  "section": "Carril 3"
+                },
+                {
+                  "section": "Carril 4"
+                }
+              ]
+            },
+            {
+              "section": "Notas"
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [],
+        "autoPlayFromHand": {},
+        "autoPlayFromStack": {},
+        "sectionsDict": {
+          "Carril 1": {
+            "title": "Carril 1",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Carril 2": {
+            "title": "Carril 2",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Carril 3": {
+            "title": "Carril 3",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Carril 4": {
+            "title": "Carril 4",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Notas": {
+            "title": "Notas",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Notas",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          }
+        }
+      }
+    }
+  }
+}
