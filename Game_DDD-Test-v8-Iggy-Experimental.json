@@ -1,0 +1,254 @@
+{
+  "name": "DDD - Jojo vs Dani - Iggy Experimental",
+  "menuBackgroundImage": "",
+  "defaultRessources": {
+    "backgrounds": [],
+    "decksUrl": ""
+  },
+  "customHelp": "DDD TEST — Iggy experimental: Al jugar, puedes elegir un Personaje aliado; gana +1 Buff de Fuerza. Si la automatización experimental no es reconocida por TCG Arena, usa el token draggable +1 Buff Fuerza como marcador visual. Los costes con Notas siguen siendo asistidos: la app gira recursos, pero actualmente no bloquea jugadas sin recursos suficientes.",
+  "cardRotation": 45,
+  "cards": {
+    "dataUrl": "https://raw.githubusercontent.com/darucuernitos/DDD-TCG/main/DDDCards-Test-v4-Jojo-Dani.json",
+    "cardBack": "https://raw.githubusercontent.com/darucuernitos/DDD-TCG/main/DDD_Back.png",
+    "version": 4
+  },
+  "deckBuilding": {
+    "mainFilters": [
+      "type",
+      "cost"
+    ],
+    "formats": [
+      {
+        "title": "DDD Test",
+        "gameplay": "55f4e9cf-2cf7-4a1b-9309-5c7881b63e0b",
+        "customCategories": [
+          "Lider",
+          "Nota"
+        ]
+      }
+    ]
+  },
+  "gameplay": {
+    "55f4e9cf-2cf7-4a1b-9309-5c7881b63e0b": {
+      "mulligan": {
+        "info": "",
+        "startingHandSize": 4,
+        "drawNewHand": true,
+        "putSelectionAtBottom": true,
+        "drawNewSelectedCards": false
+      },
+      "newTurn": {
+        "drawOnStart": true,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "",
+        "drawPerTurn": 1
+      },
+      "defaultNotes": "",
+      "tokens": [],
+      "countersStartingValues": [
+        20
+      ],
+      "hideFacedDownCards": false,
+      "sections": {
+        "customSections": [
+          "Lider",
+          "Carril 1",
+          "Carril 2",
+          "Carril 3",
+          "Carril 4",
+          "Mazo de Notas",
+          "Mana"
+        ],
+        "layout": {
+          "direction": "column",
+          "isSymetricalForOpponents": true,
+          "content": [
+            {
+              "direction": "row",
+              "content": [
+                {
+                  "section": "Lider",
+                  "style": {
+                    "width": "15vh"
+                  }
+                },
+                {
+                  "section": "Carril 1"
+                },
+                {
+                  "section": "Carril 2"
+                },
+                {
+                  "section": "Carril 3"
+                },
+                {
+                  "section": "Carril 4"
+                }
+              ]
+            },
+            {
+              "direction": "row",
+              "content": [
+                {
+                  "section": "Mazo de Notas",
+                  "style": {
+                    "width": "15vh"
+                  }
+                },
+                {
+                  "section": "Mana"
+                }
+              ]
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [
+          "Lider",
+          "Nota->Mazo de Notas"
+        ],
+        "autoPlayFromHand": {},
+        "autoPlayFromStack": {},
+        "sectionsDict": {
+          "Carril 1": {
+            "title": "Carril 1",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Carril 2": {
+            "title": "Carril 2",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Carril 3": {
+            "title": "Carril 3",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Carril 4": {
+            "title": "Carril 4",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Mazo de Notas": {
+            "title": "Mazo de Notas",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "DECK",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Mazo de Notas",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Mana": {
+            "title": "Notas",
+            "displayedTitle": "Notas",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Lider": {
+            "title": "Lider",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "START",
+            "opponentAlignment": true,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": false,
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "autoPayFrom": true
+          }
+        }
+      },
+      "draggableTokens": [
+        {
+          "id": "DDD_BUFF_PLUS_1",
+          "name": "+1 Buff Fuerza",
+          "image": "https://valcur.github.io/TCG-Arena-MTG/Images/Tokens/Orange.png"
+        }
+      ]
+    }
+  },
+  "dddExperimental": {
+    "version": 1,
+    "enabled": true,
+    "tests": {
+      "IGGY_ON_PLAY_BUFF_V1": {
+        "description": "Al jugar Iggy, elegir 1 Personaje aliado y darle +1 Buff de Fuerza.",
+        "trigger": "ON_PLAY",
+        "sourceCardId": "iggy-001",
+        "target": {
+          "side": "ALLY",
+          "type": "Personaje",
+          "count": 1,
+          "selection": "PLAYER_CHOICE"
+        },
+        "effect": {
+          "type": "ADD_BUFF",
+          "stat": "strength",
+          "value": 1,
+          "duration": "PERMANENT"
+        }
+      }
+    }
+  }
+}
